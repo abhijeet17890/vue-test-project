@@ -19,8 +19,12 @@
 </template>
 
 <script>
+import router from '../router'
+// import VueResource from 'vue-resource'
+
 export default {
   name: 'Loginbox',
+  router,
   data: function () {
     return {
       username: '',
@@ -30,7 +34,12 @@ export default {
   methods: {
     login: function (event) {
       event.preventDefault()
-      this.$router.push('/user/home')
+      // VueResource.http.get(window.location.origin + '/api' + '2.0/auth/login', {username: '7100000016', password: '123456Q'}).then(function (data) {
+      // console.log('data', data)
+      // }, function (error) {
+      // console.log('error', error)
+      // })
+      router.push('/user/home')
       console.log('login clicked')
     }
   }

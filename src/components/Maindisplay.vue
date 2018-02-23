@@ -1,40 +1,54 @@
 <template>
-  <div class="ff-sidebar-container">
-    <nav class="ff-sidebar">
-      <a id="sidebar-logo"><img id="logo-big" src="../styles/acquirer-portal/clients/axis/logo-axis_bank.svg" /></a>
-      <ul>
-        <li   v-for="option in menuOptions" :key="option.index">
-          <a to="#0">{{option.name}}</a>
-        </li>
-      </ul>
-    </nav>
+  <div>
+    <div class="row margin-top-tiny">
+      <div class="portion whole">
+          <h5>Portfolio</h5>
+      </div>
+    </div>
+    <div class="row mode-report-holder">
+      <div id="mode-widgets-box" class="box retain-layout-on-tab-ls retain-layout-on-tab-pt">
+        <div class="portion one-fifth">
+          <label class="text-small text-bold text-grey-60"> State </label>
+          <select class="ff-select full-width" v-model="selectedState">
+            <option disabled value="">Please select one</option>
+            <option>Karnataka</option>
+            <option>Maharashtra</option>
+            <option>Andhra Pradesh</option>
+          </select>
+        </div>
+        <div class="portion one-fifth">
+          <label class="text-small text-bold text-grey-60"> Zone </label>
+          <select class="ff-select full-width" v-model="selectedZone">
+            <option disabled value="">Please select one</option>
+            <option>Bengaluru</option>
+            <option>Mysuru</option>
+            <option>Mangalore</option>
+          </select>
+        </div>
+        <div class="portion one-fifth">
+          <label class="text-small text-bold text-grey-60"> MID </label>
+          <input class="ff-input" v-model="mid"/>
+        </div>
+        <div class="portion one-fifth">
+          <label class="text-small text-bold text-grey-60"> TID </label>
+          <input class="ff-input" v-model="tid"/>
+        </div>
+      </div>
+    </div>
+
   </div>
 </template>
 
 <script>
-  export default {
-    name: 'MainDisplay',
-    data: function () {
-      return {
-        menuOptions: [
-          {
-            index: 0,
-            name: 'portfolio'
-          },
-          {
-            index: 1,
-            name: 'merchants'
-          },
-          {
-            index: 2,
-            name: 'transaction'
-          },
-          {
-            index: 3,
-            name: 'reports'
-          }
-        ]
-      }
+export default {
+  name: 'MainDisplay',
+  data: function () {
+    return {
+      mid: '',
+      tid: '',
+      selectedState: 'Karnataka',
+      selectedZone: 'Bengaluru'
     }
   }
+}
 </script>

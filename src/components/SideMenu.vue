@@ -19,19 +19,19 @@ export default {
       menuOptions: [
         {
           index: 0,
-          name: 'portfolio'
+          name: 'Portfolio'
         },
         {
           index: 1,
-          name: 'merchants'
+          name: 'Merchants'
         },
         {
           index: 2,
-          name: 'transaction'
+          name: 'Transaction'
         },
         {
           index: 3,
-          name: 'reports'
+          name: 'Reports'
         }
       ]
     }

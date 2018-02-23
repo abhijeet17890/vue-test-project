@@ -1,0 +1,44 @@
+
+// AXIS styles --------------------
+
+
+.login-card.js-url-param-theme_axis .ff-input:focus,
+.login-card.js-url-param-theme_axis .ff-input:active { border-bottom : 2px solid #ae275f; }
+
+
+body.js-theme_axis .ff-input:focus,
+body.js-theme_axis .ff-input:active { border-bottom : 2px solid #ae275f; }
+
+.login-card.js-url-param-theme_axis .ff-button.bg-ezeGradient {
+  background : #ae275f;
+  background : -webkit-linear-gradient(-45deg, #ed1164 0%, #ae275f 100%);
+  background :    -moz-linear-gradient(-45deg, #ed1164 0%, #ae275f 100%);
+  background :         linear-gradient(135deg, #ed1164 0%, #ae275f 100%);
+}
+
+
+body.js-theme_axis .ff-button.bg-ezeGradient {
+  background : #ae275f;
+  background : -webkit-linear-gradient(-45deg, #ed1164 0%, #ae275f 100%);
+  background :    -moz-linear-gradient(-45deg, #ed1164 0%, #ae275f 100%);
+  background :         linear-gradient(135deg, #ed1164 0%, #ae275f 100%);
+}
+
+
+body.js-theme_axis a,
+body.js-theme_axis .ff-sidebar a,
+body.js-theme_axis .ff-sidebar label { color : #ae275f; }
+
+body.js-theme_axis .ff-sidebar a:hover,
+body.js-theme_axis .ff-sidebar label:hover { background : #ae275f !important; color: #fff !important; }
+
+
+body.js-theme_axis .ff-checkbox input[type="checkbox"]:checked + label::before,
+body.js-theme_axis .ff-switch input[type="checkbox"]:checked + label::before,
+body.js-theme_axis .ff-radio input[type="radio"]:checked + label::before { background : #ae275f; }
+
+body.js-theme_axis .react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range { background: #ae275f !important;}
+
+body.js-theme_axis .react-progress .loader-60devs .loader-60devs-progress {background : #ae275f !important;}
+
+body.js-theme_axis hr { background-color: #ae275f !important;}

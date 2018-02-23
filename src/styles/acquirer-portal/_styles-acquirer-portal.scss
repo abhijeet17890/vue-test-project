@@ -1,0 +1,265 @@
+.ff-input.needs-validation:valid {
+  background: url(/src/styles/fffe/assets/icons/icon-check.svg) no-repeat 98% 8px; //TODO need to comment this code if code is replaced with new
+}
+
+.ff-select {
+  background: url(/src/styles/fffe/assets/icons/icon-dropdown.svg) no-repeat 98% 12px;
+}
+
+.ff-sidebar summary::after {
+  background: url(/src/styles/fffe/assets/icons/icon-chevron-down.svg) no-repeat center center;
+}
+
+.ff-sidebar a::before {
+  background: url(/src/styles/fffe/assets/icons/icon-dot_large.svg) no-repeat center center;
+}
+
+.ff-sidebar a.sublink::before {
+  background: url(/src/styles/fffe/assets/icons/icon-dot_small.svg) no-repeat center center;
+}
+
+@font-face {
+  font-family: "Atlas Grotesk";
+  font-weight: 200;
+  src: url("/src/styles/fffe/assets/fonts/AtlasGrotesk/AtlasGrotesk-Light-Web.woff") format("woff"),
+  url("/src/styles/fffe/assets/fonts/AtlasGrotesk/AtlasGrotesk-Light-Web.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Atlas Grotesk";
+  font-weight: 400;
+  src: url("/src/styles/fffe/assets/fonts/AtlasGrotesk/AtlasGrotesk-Regular-Web.woff") format("woff"),
+  url("/src/styles/fffe/assets/fonts/AtlasGrotesk/AtlasGrotesk-Regular-Web.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Atlas Grotesk";
+  font-style: italic;
+  font-weight: 400;
+  src: url("/src/styles/fffe/assets/fonts/AtlasGrotesk/AtlasGrotesk-RegularItalic-Web.woff") format("woff"),
+  url("/src/styles/fffe/assets/fonts/AtlasGrotesk/AtlasGrotesk-RegularItalic-Web.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Atlas Grotesk";
+  font-weight: 500;
+  src: url("/src/styles/fffe/assets/fonts/AtlasGrotesk/AtlasGrotesk-Medium-Web.woff") format("woff"),
+  url("/src/styles/fffe/assets/fonts/AtlasGrotesk/AtlasGrotesk-Medium-Web.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Atlas Grotesk";
+  font-weight: 600;
+  src: url("/src/styles/fffe/assets/fonts/AtlasGrotesk/AtlasGrotesk-Bold-Web.woff") format("woff"),
+  url("/src/styles/fffe/assets/fonts/AtlasGrotesk/AtlasGrotesk-Bold-Web.woff2") format("woff2");
+}
+
+//  Atlas Typewriter - for numbers code snippets  =========
+@font-face {
+  font-family: "Atlas Typewriter";
+  font-weight: 300;
+  src: url("/src/styles/fffe/assets/fonts/AtlasTypewriter/AtlasTypewriter-Light-Web.woff") format("woff"),
+  url("/src/styles/fffe/assets/fonts/AtlasTypewriter/AtlasTypewriter-Light-Web.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Atlas Typewriter";
+  font-weight: 400;
+  src: url("/src/styles/fffe/assets/fonts/AtlasTypewriter/AtlasTypewriter-Regular-Web.woff") format("woff"),
+  url("/src/styles/fffe/assets/fonts/AtlasTypewriter/AtlasTypewriter-Regular-Web.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Atlas Typewriter";
+  font-weight: 500;
+  src: url("/src/styles/fffe/assets/fonts/AtlasTypewriter/AtlasTypewriter-Medium-Web.woff") format("woff"),
+  url("/src/styles/fffe/assets/fonts/AtlasTypewriter/AtlasTypewriter-Medium-Web.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Atlas Typewriter";
+  font-weight: 600;
+  src: url("/src/styles/fffe/assets/fonts/AtlasTypewriter/AtlasTypewriter-Bold-Web.woff") format("woff"),
+  url("/src/styles/fffe/assets/fonts/AtlasTypewriter/AtlasTypewriter-Bold-Web.woff2") format("woff2");
+}
+
+// custom styles
+
+:invalid {
+  box-shadow: none;
+}
+
+:-moz-submit-invalid {
+  box-shadow: none;
+}
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+.error-border-bottom {
+  border-bottom: 2px solid #ff5a57;
+}
+
+.ff-input.needs-validation.valid {
+  background-size: $measureFixed*2;
+  background: url(/src/styles/fffe/assets/icons/icon-check.svg) no-repeat 98% $measureFixed;
+}
+
+.ff-input.invalid {
+  border-bottom: 2px solid $colorRed;
+  padding-bottom: 3px;
+}
+
+.input-help.error {
+  max-height: 200px;
+  padding: $measureFixed/2;
+}
+
+.ff-input.needs-validation.valid {
+  background-size: 16px;
+  background: url('/src/styles/fffe/assets/icons/icon-check.svg') no-repeat 98% 8px;
+}
+
+.ff-sidebar {
+  overflow-x: hidden;
+}
+
+.ff-sidebar a { padding: 16px 16px 16px 32px; }
+
+.ff-sidebar a::before { background: none; }
+
+// When no sidemenu icons
+
+//.ff-sidebar a#logout::before { background: url('/src/styles/fffe/assets/icons/icon-logout.svg');} // When no sidemenu icons
+
+nav.ff-sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+//  MODAL NOTIFICATION  ===================================
+.ff-modal.modal-notification {
+  background: none;
+  height: $measureFixed*4;
+  width: 100%;
+}
+
+.modal-notification .ff-modal-box {
+  margin: 0;
+}
+
+.ff-modal.modal-normal {
+  background-color: $colorWhite;
+}
+
+.ff-modal.modal-warning {
+  background-color: $colorYellow;
+}
+
+.ff-modal.modal-success {
+  background-color: $colorGreen;
+}
+
+.ff-modal.modal-error {
+  background-color: $colorRed;
+}
+
+.modal-normal p,
+.modal-normal a {
+  color: $colorShade;
+}
+
+.modal-notification a.close-modal {
+  position: absolute;
+  right: 16px;
+  top: 6px;
+  font-size: 24px;
+}
+
+.ff-modal {
+  opacity: 1;
+}
+
+//.mode-report-holder {
+//  min-height: 80vh;
+//  z-index: 99999;
+//  display: block;
+//  position: relative;}
+
+.mod-btns {
+  a {
+    font-weight: normal !important;
+  }
+}
+
+.mode-iframe {
+  border: 0px;
+  width: 100%;
+  //min-height: 80vh;
+}
+
+iframe{
+  min-height: 100vh;
+}
+
+#logout {
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+textarea{ resize: none; }
+
+#feedback-link a{ font-weight: normal !important; }
+
+.report-download {
+  opacity : 0.24;
+  transition : all 0.3s;
+}
+
+.report-card:hover .report-download { opacity : 1; }
+
+footer {
+  position: absolute;
+  width: calc(100% - 4vw);
+  bottom: 0;
+  margin: 0 auto;
+}
+
+#sidebar-logo:hover{ background-color: #fff !important; }
+
+.ff-sidebar #sidebar-logo:hover{ background-color: #f7f7f7 !important; }
+
+#authbox .ff-card{ padding: 32px; }
+
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container{ width:100%; }
+
+#widgets-box .portion:last-child { float:right; }
+
+.ff-modal-content{ overflow-y: auto; }
+
+
+//feedback-plugin styles
+
+#pp-cfpiaw-trigger{ background-color: transparent !important; }
+#pp-cfpiaw-trigger .pp-cfpiaw-trigger__icon{ display: none }
+#pp-cfpiaw-trigger .pp-cfpiaw-trigger__text{ color: #000000 !important;}
+.pp-cfpiaw__powered_by{ display: none; }
+#pp-cfpiaw-dialog button{
+  background : #f73 !important;
+  background : -webkit-linear-gradient(-45deg, #ffa200 0%, #f73 100%) !important;
+  background :    -moz-linear-gradient(-45deg, #ffa200 0%, #f73 100%) !important;
+  background :         linear-gradient(135deg, #ffa200 0%, #f73 100%) !important;
+}
+
+#pp-cfpiaw-dialog .pp-cfpiaw-dialog__sub-title { font-weight: normal !important};
+#pp-cfpiaw-dialog input[type=email]:focus~label, #pp-cfpiaw-dialog input[type=text]:focus~label, #pp-cfpiaw-dialog textarea:focus~label {
+  color: #ffa200 !important;
+}
+
+
+
+

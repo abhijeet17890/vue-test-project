@@ -1,0 +1,45 @@
+// HDFC styles --------------------
+
+.login-card.js-url-param-theme_hdfc .ff-input:focus,
+.login-card.js-url-param-theme_hdfc .ff-input:active { border-bottom : 2px solid #004C8F; }
+
+body.js-theme_hdfc .ff-input:focus,
+body.js-theme_hdfc .ff-input:active { border-bottom : 2px solid #004C8F; }
+
+.login-card.js-url-param-theme_hdfc .ff-button.bg-ezeGradient {
+  background : #004C8F;
+  background : -webkit-linear-gradient(-45deg, #004C8F
+  0%, #004C8F 100%);
+  background :    -moz-linear-gradient(-45deg, #004C8F
+  0%, #004C8F 100%);
+  background :         linear-gradient(135deg, #004C8F
+  0%, #004C8F 100%);
+}
+
+body.js-theme_hdfc .ff-button.bg-ezeGradient {
+  background : #004C8F;
+  background : -webkit-linear-gradient(-45deg, #004C8F
+  0%, #004C8F 100%);
+  background :    -moz-linear-gradient(-45deg, #004C8F
+  0%, #004C8F 100%);
+  background :         linear-gradient(135deg, #004C8F
+  0%, #004C8F 100%);
+}
+
+body.js-theme_hdfc a,
+body.js-theme_hdfc .ff-sidebar a,
+body.js-theme_hdfc .ff-sidebar label { color : #004C8F; }
+
+body.js-theme_hdfc .ff-sidebar a:hover,
+body.js-theme_hdfc .ff-sidebar label:hover { background : #004C8F !important; color: #fff !important; }
+
+
+body.js-theme_hdfc .ff-checkbox input[type="checkbox"]:checked + label::before,
+body.js-theme_hdfc .ff-switch input[type="checkbox"]:checked + label::before,
+body.js-theme_hdfc .ff-radio input[type="radio"]:checked + label::before { background : #004C8F; }
+
+body.js-theme_hdfc .react-datepicker__day--selected, .react-datepicker__day--in-selecting-range, .react-datepicker__day--in-range { background: #004C8F !important;}
+
+body.js-theme_hdfc .react-progress .loader-60devs .loader-60devs-progress {background : #004C8F !important;}
+
+body.js-theme_hdfc hr { background-color: #004C8F !important; }

@@ -1,0 +1,53 @@
+//  Import and transpile all the necessary files into
+//  CSS in a particular order.
+
+//Loader css
+@import "../../node_modules/react-progress-2/main.css";
+
+//  Normalize first ===========================================================
+@import "fffe/scss/vendor/normalize";
+
+//  Variables next ============================================================
+@import "fffe/scss/fictoan/base/ff-config";
+@import "fffe/scss/fictoan/theme/ff-variables";
+@import "fffe/scss/ezetap/variables-ezetap";
+
+//  Variables of current project - rename accordingly =========================
+@import "acquirer-portal/variables-acquirer-portal";
+
+//  The meat of the matter ====================================================
+//  Opinionated baseline rules
+@import "fffe/scss/fictoan/base/ff-reset";
+
+//  Basics
+@import "fffe/scss/fictoan/base/ff-layout";
+@import "fffe/scss/fictoan/base/ff-utilities";
+@import "fffe/scss/fictoan/base/ff-responsive";
+
+@import "fffe/scss/fictoan/design/ff-colours";
+@import "fffe/scss/fictoan/design/ff-typography";
+
+//The FICTOAN buffet menu
+@import "fffe/scss/fictoan/elements/ff-inputs";
+@import "fffe/scss/fictoan/elements/ff-buttons";
+
+@import "fffe/scss/fictoan/components/ff-sidebar";
+@import "fffe/scss/fictoan/components/ff-header";
+@import "fffe/scss/fictoan/components/ff-tabs";
+@import "fffe/scss/fictoan/components/ff-modal";
+@import "fffe/scss/fictoan/components/ff-card";
+
+@import "fffe/scss/fictoan/design/ff-code-light";
+
+//  Other small plugins =======================================================
+
+
+//  Ezetap-specific ===========================================================
+@import "fffe/scss/ezetap/styles-ezetap";
+
+//  Project-specific ==========================================================
+@import "acquirer-portal/styles-acquirer-portal";
+
+//  Client-specific ===========================================================
+@import "acquirer-portal/clients/axis/axis-theme";
+@import "acquirer-portal/clients/hdfc/hdfc-theme";

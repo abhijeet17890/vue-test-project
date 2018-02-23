@@ -1,0 +1,20 @@
+/*  =====================================================================================
+
+    FFFE - FICTOAN Framework for Ezetap
+    This is a customised version of the FICTOAN Framework, made just for Ezetap.
+
+    FFFE v1.0.0
+
+    Enjoy responsibly, many projects depend on this.
+
+    =================================================================================  */
+
+//  Hard-coded Ezetap brand colour scheme.
+$colorTint     : hsl(  10,  20%,  95%); // Near-gray for backgrounds
+$colorHue      : hsl(  20, 100%,  60%); // Main Ezetap orange
+$colorAnalogue : hsl(  38, 100%,  50%); // Lighter version of main orange
+$colorShade    : hsl(  20,  10%,  30%); // For all text
+$colorAccent   : hsl( 175,  60%,  50%); // Teal - accent colour
+
+$fontSans  : "Atlas Grotesk", sans-serif;
+$fontMono  : "Atlas Typewriter", monospace;

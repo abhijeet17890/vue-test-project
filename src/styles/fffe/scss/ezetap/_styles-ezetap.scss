@@ -1,0 +1,91 @@
+/*  =====================================================================================
+
+    FFFE - FICTOAN Framework for Ezetap
+    This is a customised version of the FICTOAN Framework, made just for Ezetap.
+
+    FFFE v1.0.0
+
+    Enjoy responsibly, many projects depend on this.
+
+    =================================================================================  */
+
+//  Atlas Grotesk - for body and general copy  ============
+//@font-face {
+//    font-family : "Atlas Grotesk";
+//    font-weight : 200;
+//    src         : url("../assets/fonts/AtlasGrtotesk/AtlasGrotesk-Light-Web.woff") format("woff"),
+//                  url("../assets/fonts/AtlasGrtotesk/AtlasGrotesk-Light-Web.woff2") format("woff2");
+//}
+//
+//@font-face {
+//    font-family : "Atlas Grotesk";
+//    font-weight : 400;
+//    src         : url("../assets/fonts/AtlasGrtotesk/AtlasGrotesk-Regular-Web.woff") format("woff"),
+//                  url("../assets/fonts/AtlasGrtotesk/AtlasGrotesk-Regular-Web.woff2") format("woff2");
+//}
+//
+//@font-face {
+//    font-family : "Atlas Grotesk";
+//    font-style  : italic;
+//    font-weight : 400;
+//    src         : url("../assets/fonts/AtlasGrtotesk/AtlasGrotesk-RegularItalic-Web.woff") format("woff"),
+//                  url("../assets/fonts/AtlasGrtotesk/AtlasGrotesk-RegularItalic-Web.woff2") format("woff2");
+//}
+//
+//@font-face {
+//    font-family : "Atlas Grotesk";
+//    font-weight : 500;
+//    src         : url("../assets/fonts/AtlasGrtotesk/AtlasGrotesk-Medium-Web.woff") format("woff"),
+//                  url("../assets/fonts/AtlasGrtotesk/AtlasGrotesk-Medium-Web.woff2") format("woff2");
+//}
+//
+//@font-face {
+//    font-family : "Atlas Grotesk";
+//    font-weight : 600;
+//    src         : url("../assets/fonts/AtlasGrtotesk/AtlasGrotesk-Bold-Web.woff") format("woff"),
+//                  url("../assets/fonts/AtlasGrtotesk/AtlasGrotesk-Bold-Web.woff2") format("woff2");
+//}
+//
+////  Atlas Typewriter - for numbers code snippets  =========
+//@font-face {
+//    font-family : "Atlas Typewriter";
+//    font-weight : 300;
+//    src         : url("../assets/fonts/AtlasTypewriter/AtlasTypewriter-Light-Web.woff") format("woff"),
+//                  url("../assets/fonts/AtlasTypewriter/AtlasTypewriter-Light-Web.woff2") format("woff2");
+//}
+//
+//@font-face {
+//    font-family : "Atlas Typewriter";
+//    font-weight : 400;
+//    src         : url("../assets/fonts/AtlasTypewriter/AtlasTypewriter-Regular-Web.woff") format("woff"),
+//                  url("../assets/fonts/AtlasTypewriter/AtlasTypewriter-Regular-Web.woff2") format("woff2");
+//}
+//
+//@font-face {
+//    font-family : "Atlas Typewriter";
+//    font-weight : 500;
+//    src         : url("../assets/fonts/AtlasTypewriter/AtlasTypewriter-Medium-Web.woff") format("woff"),
+//                  url("../assets/fonts/AtlasTypewriter/AtlasTypewriter-Medium-Web.woff2") format("woff2");
+//}
+//
+//@font-face {
+//    font-family : "Atlas Typewriter";
+//    font-weight : 600;
+//    src         : url("../assets/fonts/AtlasTypewriter/AtlasTypewriter-Bold-Web.woff") format("woff"),
+//                  url("../assets/fonts/AtlasTypewriter/AtlasTypewriter-Bold-Web.woff2") format("woff2");
+//}
+
+body {
+    font-family : $fontSans;
+    font-weight : 400;
+}
+
+
+//  BUTTONS ===============================================
+
+.ff-button.bg-ezeGradient {
+    background  : $colorHue;  // Fallback
+    background  : -webkit-linear-gradient(-45deg, $colorAnalogue 0%, $colorHue 100%);
+    background  :    -moz-linear-gradient(-45deg, $colorAnalogue 0%, $colorHue 100%);
+    background  :         linear-gradient(135deg, $colorAnalogue 0%, $colorHue 100%);
+}
